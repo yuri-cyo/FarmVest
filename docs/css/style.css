@@ -1599,10 +1599,6 @@ body {
   overflow: hidden;
 }
 
-.item-review__image img {
-  width: 44.0233236152%;
-}
-
 .item-review__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2220,16 +2216,19 @@ body {
             flex-direction: column;
   }
 
-  .item-review__image .text {
+  .item-review__image__text {
     text-align: center;
     margin-bottom: 0.9375rem;
   }
 
-  .item-review__image .item-review__name {
+  .item-review__image img {
+    border-radius: 1.25rem;
     margin: 0 auto;
+    margin-top: 0.9375rem;
+    width: 50%;
   }
 
-  .item-review__image .item-review__body {
+  .item-review__body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -2237,12 +2236,8 @@ body {
     gap: 0.9375rem;
   }
 
-  .item-review__image img {
-    border-radius: 1.25rem;
+  .item-review__name {
     margin: 0 auto;
-    margin-top: 0.9375rem;
-    margin-bottom: 0.9375rem;
-    width: 100%;
   }
 }
 
